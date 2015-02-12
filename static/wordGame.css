@@ -1,0 +1,43 @@
+body {
+    font-family:    Verdana, Geneva, Arial, sans-serif;
+    font-size:      medium;
+    background-color: #4169E1;
+}
+h2 {
+    font-weight: normal;
+    color:       #00FA9A;
+    font-size:   150%;
+}
+p {
+    color:  #C0C0C0;
+}
+li {
+    color:  #000000;
+}
+a {
+    color:  #00FA9A;
+}
+H6 {
+    color:  #00FA9A;
+}
+H4 {
+    color:  #C0C0C0;
+}
+textarea {
+    border: 3px solid #00FA9A;
+	width: 200px;
+	height: 25px;
+    font-family:    Verdana, Geneva, Arial, sans-serif;
+}
+/*** Inputs ***/
+
+
+input[type=text] {
+    font-size:  115%;
+}
+input[type=submit] {
+    font-size:  125%;
+}
+select {
+    font-size:  125%;
+}

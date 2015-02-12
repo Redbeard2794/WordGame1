@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block the_body %}
+
+
+
+<form action={{submit_url}} method="POST">
+    <img src="http://25.media.tumblr.com/7716ef547264521e476a067b1c8d2717/tumblr_mwjlmfJ1vx1rkiuhro1_500.gif" style="width:150px;height:100px"> 
+    <p>
+    Source Word: 
+    <input type="text" name="source_word" value="{{ the_source }}" readonly><br>
+    </p>
+
+    <p>
+    * word 1
+    <textarea rows="1" cols="30" name="user_word1"></textarea>
+    </p>
+
+    <p>
+    * word 2
+    <textarea rows="1" cols="30" name="user_word2"></textarea>
+    </p>
+    <p>
+    * word 3
+    <textarea rows="1" cols="30" name="user_word3"></textarea>
+    </p>
+    <p>
+    * word 4
+    <textarea rows="1" cols="30" name="user_word4"></textarea>
+    </p>
+    <p>
+    * word 5
+    <textarea rows="1" cols="30" name="user_word5"></textarea>
+    </p>
+    <p>
+    * word 6
+    <textarea rows="1" cols="30" name="user_word6"></textarea>
+    </p>
+    <p>
+    * word 7
+    <textarea rows="1" cols="30" name="user_word7"></textarea>
+    </p>
+
+    <p>
+        <input type="SUBMIT" value="Submit these words">
+    </p>
+
+    <input type="hidden" name="start_time" value="{{ the_time }}" readonly><br>
+</form>
+
+{% endblock %}

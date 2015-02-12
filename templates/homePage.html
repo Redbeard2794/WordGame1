@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block the_body %}
+
+    <img src="https://31.media.tumblr.com/tumblr_m4nvojpRjZ1r3zat8.gif" style="width:150px;height:100px"> 
+<p>
+This is a very simple game to play. You will be presented with a source word.
+</p>
+<p>
+Your job is to make seven words using only the letters contained in the
+source word.
+</p>
+<p>
+Each word must be at least 3 letters long. 
+</p>
+<p>
+You can not use a letter more times
+than it occurs in the source word.
+</p>
+<p>
+To win just complete the game as quick as you can and you can see if you are in the top ten
+</p>
+
+
+<ul>
+    <li>Play a round of the <a href="{{ play_url }}">wordGame</a>
+    <li>Check out the <a href="{{ leaderboard_url }}">top ten</a>
+</ul>
+
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block the_body %}
+
+
+    <img src="http://cmnhospitals.typepad.com/.a/6a0133f5030223970b019b038392e2970d-pi" style="width:150px;height:100px"> 
+    <p>1. {{ theTen[0] }} </p>
+    <p>2. {{ theTen[1] }} </p>
+    <p>3. {{ theTen[2] }} </p>
+    <p>4. {{ theTen[3] }} </p>
+    <p>5. {{ theTen[4] }} </p>
+    <p>6. {{ theTen[5] }} </p>
+    <p>7. {{ theTen[6] }} </p>
+    <p>8. {{ theTen[7] }} </p>
+    <p>9. {{ theTen[8] }} </p>
+    <p>10. {{ theTen[9] }} </p>
+
+    <p>{{ currPlayer_name }} is ranked {{ curr_player_place }}</p>
+
+<ul>
+    <li>Go to <a href="{{ home_url }}">home page</a>
+</ul>
+
+{% endblock %}

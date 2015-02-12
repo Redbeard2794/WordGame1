@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block the_body %}
+
+<form action={{submit_url}} method="POST">
+
+    <p>Your invalid words are: {{ the_words }}</p>
+    You completed the game in: <input type="text" name="finish_time" value="{{ the_time }}" readonly><br>
+
+    <p>
+    Please input your name
+    <textarea rows="1" cols="30" name="user_name"></textarea>
+    </p>
+
+    <p>
+        <input type="SUBMIT" value="Click me to go home">
+    </p>
+
+
+</form>
+
+{% endblock %}
